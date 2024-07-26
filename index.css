@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css2?family=Montaga&display=swap');
+:root{
+    --link-color: rgba(43, 17, 5, 1);
+    --title-color:rgba(198, 117, 77, 1);
+    --text-color: rgba(252, 249, 247, 1);
+    --background-color: rgba(252, 249, 247, 1);
+
+}
+html{
+    font-size: 10px;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 0;
+}
+body{
+  width: 100vw;
+  height: 100vh;
+  background-color: red;
+  font-family: "Montaga", serif;
+  overflow-x: hidden;
+}
+.entete{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    width: 100vw;
+    height: 128px;
+   background-color: var(--background-color);
+    padding-left: 15rem;
+    font-weight: 1000;
+    text-decoration: underline;
+    
+}
+a{
+    text-decoration: none;
+    font-size: 2rem;
+    color: var(--link-color);
+}
+.nav1{
+    display: flex;
+    align-items:center ;
+    justify-content: space-between;
+    padding-right: 17rem;
+}
+.nav2{
+    display: flex;
+    align-items:center ;
+    justify-content: space-between;
+    padding-right: 15rem;
+}
+ul{
+    display: flex;
+    justify-content: space-around;
+    width:20rem;
+    height:36px;
+    gap: 60px;
+    list-style: none;
+}
+.frame10{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+   height: 20rem;
+   font-size:2rem;
+   color: var(--link-color);
+   background-color: var(--background-color);
+   gap: 2rem;
+}
+.p1{
+    color: var(--title-color);
+}
+.big{
+   font-weight:100rem ;  
+   font-size: 7rem;
+}
+.frame1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.ligne{
+    border:1px black solid;
+    width:.7rem;
+    color:  var(--link-color);
+}
+.image{
+    background-color: var(--background-color);
+    padding: 5rem;
+    padding-left: 10rem;
+}
+.our-story{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1440px;
+    height: 645px;
+    gap: 7rem;
+    padding-left: 10rem;
+    background-color: var(--link-color);
+    color: white;
+}
+.mots{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+    height: 20rem;
+   padding-right: 20rem;
+   font-size: 5rem;
+   margin-right:10rem ;
+}
+.text{
+    font-size: 2rem;
+    width: 30%;
+    padding: 3rem;
+    margin-right:10rem ;
+
+}
+.image2{
+    background-color: var(--background-color);
+    padding-bottom: 9rem;
+}
+.venue{
+    display: flex;
+    align-items: center;
+    justify-content:flex-start;
+    padding: 12rem;
+    background-color: var(--background-color);
+    height: 60rem;
+}
+.texte{
+    margin-right: 1rem;
+    width: 40rem;
+}
+.p1{
+    color: var(--title-color);
+}
+.grand{
+    font-size: 4rem;
+    color: var(--link-color);
+}
+.grand2{
+    font-weight: 400;
+    color: var(--link-color);
+}
+.images{
+    display: flex; 
+    border: black solid;
+    width: 80rem;
+    padding: 10rem;
+    height: 10rem;
+}
+.text-decoration{
+    background-color: var(--text-color);
+}
+.blocks{
+    display: flex;
+    padding: 10rem;
+    align-items: center;
+    justify-content:space-around;
+    gap: 6rem;
+}
+button > p{
+    padding: 1rem;
+    border: 1px solid rgba(198, 117, 77, 1);
+    color : var(--title-color);
+    background-color:var(--background-color) ;
+}
+.wedding-party{
+    padding: 8rem;
+    font-size: 2rem;
+    background-color:var(--background-color) ;
+}
+.franc > p{
+    width: 13.1rem;
+    font-size: 2rem;
+}
+hr{
+    width: 10.5rem;
+    color: rgba(198, 117, 77, 1);
+
+}
+ .frame26{
+    display: flex;
+    padding-top: 5rem;
+    justify-content: flex-start;
+  
+}
+.Blocks{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.itinery{
+    padding: 9rem;
+    background-color:var(--background-color) ;
+}
+.date{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 13rem;
+    font-size: 1.8rem;
+    background-color:var(--background-color) ;
+}
+hr{
+    width: 10.5rem;
+    color: var(--title-color);
+}
+.date > p{
+    color: var(--link-color);
+}
+.mblock1{
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+    gap: 30rem;
+}
+.mblock11{
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+    
+}
+.mblock111 > p{
+    font-size: 2.4rem;
+    color: var(--title-color);
+}
+.mblock2{
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+    gap: 30rem;
+}
+.RSVP{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 6rem;
+    
+}
+.content-block{
+    padding-top: 2rem;
+    gap: 6rem;
+    font-size: 1.5rem;
+}
